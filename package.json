@@ -1,0 +1,40 @@
+{
+  "name": "coder-mocks-normalizacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src/index.js -d dist",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranBZ/coder-mocks-normalizacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranBZ/coder-mocks-normalizacion/issues"
+  },
+  "homepage": "https://github.com/FranBZ/coder-mocks-normalizacion#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.1.0",
+    "mongoose": "^6.6.5",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.2",
+    "uuid": "^9.0.0"
+  }
+}
